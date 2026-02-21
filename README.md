@@ -4,7 +4,7 @@ Customized waybar for Hyprland.
 
 You need this packages for full functionality of the icons, the rest I use the defaults programs from Omarchy.
 
-| Usage | Command |
+| Usage | Package |
 | ------------- | ------------- |
 | Clipboard  | cliphist |
 | Colorpicker  | hyprpicker  |
