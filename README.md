@@ -10,3 +10,7 @@ You need this packages for full functionality of the icons, the rest I use the d
 | Colorpicker  | hyprpicker  |
 | Audio Mangment | pavucontrol |
 | Music Player | playerctl |
+
+
+Full resoultion wallpaper:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8cf1cc2e-7bf7-4c83-8dc6-9bcba62df324" />
