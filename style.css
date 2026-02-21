@@ -1,0 +1,173 @@
+@import "colors/colors.css";
+
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: 'Rubik', "JetBrainsMono Nerd Font Propo";
+  font-size: .8rem;
+  padding: 0;
+  margin: 0;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+.modules-center {
+  background: @bg0;
+  padding: 4px 6px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-family: 'Rubik', "JetBrainsMono Nerd Font Propo";
+}
+
+.modules-left {
+  background: @bg0;
+  padding: 4px 6px;
+  border-radius: 0 0 8px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-family: 'Rubik', "JetBrainsMono Nerd Font Propo";
+}
+
+.modules-right {
+  background: @bg0;
+  padding: 4px 6px;
+  border-radius: 0 0 0 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-family: 'Rubik', "JetBrainsMono Nerd Font Propo";
+}
+
+
+tooltip {
+  background: @bg2;
+  border: 1px solid @bg3;
+  border-radius: 12px;
+}
+
+tooltip label {
+  color: @fg;
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-size: 14px;
+  padding: 6px;
+}
+
+#workspaces {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  font-weight: 800;
+}
+
+#workspaces button {
+  padding: 0 3px;
+  margin: 0 2px;
+  border-radius: 6px;
+  color: @grey0;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+  background: @bg3;
+  color: @fg;
+}
+
+#workspaces button:not(.empty) {
+  background: @bg3;
+  color: @fg;
+}
+
+#workspaces button.active {
+  background: linear-gradient(135deg, @red 0%, @yellow 100%);
+  color: @bg0;
+  min-width: 20px;
+  margin: 0px 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+#custom-colorpicker,
+#custom-notification,
+#custom-clipboard,
+#cpu,
+#network,
+#clock,
+#battery,
+#bluetooth,
+#pulseaudio {
+  background-color: @bg0;
+  padding: 0 6px;
+  margin: 0;
+  border-radius: 16px;
+  border: none;
+  box-shadow: none;
+}
+
+#custom-colorpicker:hover,
+#custom-notification:hover,
+#custom-clipboard:hover,
+#cpu:hover,
+#network:hover,
+#bluetooth:hover,
+#clock:hover,
+#battery:hover,
+#pulseaudio:hover {
+  background: @bg3;
+}
+
+#custom-clipboard {
+  color: #d27f3b;
+}
+
+#custom-notification {
+  color: yellow;
+}
+
+#battery {
+  color: @green
+}
+
+#network {
+  color: @red
+}
+
+#pulseaudio {
+  color: @yellow
+}
+
+#bluetooth {
+  color: @blue
+}
+
+#clock {
+  font-weight: bold;
+  font-family: 'Rubik';
+}
+
+#cpu {
+  color: @purple
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-media {
+    color: #ffffff;
+    padding: 0 4px;
+    min-width: 20px;
+}
+
+#custom-media.Playing {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+#custom-media.Paused {
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+
+}
