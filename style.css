@@ -82,13 +82,14 @@ tooltip label {
 }
 
 #workspaces button.active {
-  background: linear-gradient(135deg, @red 0%, @yellow 100%);
-  color: @bg0;
+  background: linear-gradient(135deg, #CE0E06 0%, #41F3DE 100%);
+  color: white;
   min-width: 20px;
   margin: 0px 2px;
   transition: all 0.3s ease-in-out;
 }
 
+#custom-productivity,
 #custom-colorpicker,
 #custom-notification,
 #custom-clipboard,
@@ -106,6 +107,7 @@ tooltip label {
   box-shadow: none;
 }
 
+#custom-productivity:hover,
 #custom-colorpicker:hover,
 #custom-notification:hover,
 #custom-clipboard:hover,
@@ -116,6 +118,10 @@ tooltip label {
 #battery:hover,
 #pulseaudio:hover {
   background: @bg3;
+}
+
+#custom-productivity {
+  color: #3ef92a;
 }
 
 #custom-clipboard {
@@ -170,4 +176,8 @@ tooltip label {
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
 
+}
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active {
+  color: #a55555;
 }

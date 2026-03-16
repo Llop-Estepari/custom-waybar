@@ -10,6 +10,7 @@
     "hyprland/workspaces",  
   ],
   "modules-right": [
+    "custom/productivity",
     "custom/colorpicker",
     "custom/clipboard",
     "custom/separator",
@@ -114,6 +115,7 @@
     "format-muted": "",
     "format-icons": {
       "headphone": "",
+      "headset": "",
       "default": ["", "", ""]
     }
   },
@@ -161,5 +163,9 @@
   "custom/separator": {
     "format": "|",
     "color": "#444444"
-}
+  },
+  "custom/productivity": {
+    "format": "󱁤",
+    "on-click": "superproductivity"
+  }
 }
